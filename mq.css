@@ -1,0 +1,12 @@
+@media screen and (max-width:576px){
+    .container{
+        flex-direction: column;
+    }  
+    .intro-content h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .intro-content p{
+        text-align: center;
+    }
+}

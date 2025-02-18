@@ -6,11 +6,12 @@
 body{
     background-image: url(images/bg-intro-desktop.png);
     background-color:hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
 }
 .container{
     padding: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 100vh;
 }
@@ -26,40 +27,57 @@ body{
 }
 
 .intro-content p{
-    font-size: 17px;
+    font-size: 16px;
 }
 .signup{
     flex: 1; 
     padding:0 15px;
-    max-width: 600px;
+    max-width: 500px;
 }
 .form-content{
     background-color: white;
     padding: 20px;
-    /* margin-bottom: 15px ; */
+    margin-bottom: 25px ;
     border-radius: 10px;
 }
 
 .trial{
     width: 100%;
-    padding: 10px;
+    padding: 15px 9px;
     margin-bottom: 15px;
     background-color: hsl(248, 32%, 49%);
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 15px;
+    border-radius: 10px;
+    font-size: 14px;
 }
-
+.trial span{
+    font-size: 12px;
+    color:  hsl(246, 25%, 77%);
+}
 .form-content input{
     width: 100%;
     padding: 10px;
+    border-radius: 5px;
     border: 1px solid #ddd;
     margin-bottom: 15px;
 }
 .button{
     width: 100%;
-    padding:10px;
+    padding:14px 10px;
+    border: none;
+    color:white;
+    font-size: 14px;
+    border-radius: 5px;
     background-color:hsl(154, 59%, 51%) ;
     margin: 10px 0px;
+}
+.terms {
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    font-size: 14px;
+}
+.terms a{
+    text-decoration:none ;
+    color: red;
 }
