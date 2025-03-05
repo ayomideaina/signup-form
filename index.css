@@ -50,6 +50,7 @@ body{
     border: none;
     border-radius: 10px;
     font-size: 14px;
+    cursor: pointer;
 }
 .trial span{
     font-size: 12px;
@@ -71,6 +72,7 @@ body{
     border-radius: 5px;
     background-color:hsl(154, 59%, 51%) ;
     margin: 10px 0px;
+    cursor: pointer;
 }
 .terms {
     color: hsl(246, 25%, 77%);
@@ -80,4 +82,11 @@ body{
 .terms a{
     text-decoration:none ;
     color: red;
+}
+
+.error {
+    color: rgb(240, 100, 100);
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }

@@ -18,15 +18,23 @@
         </div>
         <div class="signup">
             <button class="trial">Try it for free 7 days <span>then $20/mo. thereafter</span></button>
-            <form class="form-content">
-               <input type = "text" placeholder="First Name">
-                <input type = "text" placeholder="Last Name">
-                <input type = "email" placeholder="Email Address">
-                <input type = "password" placeholder="Password">
+            <form id ="signupForm" class="form-content">
+                <input type = "text" id ="firstName" placeholder="First Name">
+                <p class="error" id="firstNameError"></p>
+                <input type = "text" id="lastName" placeholder="Last Name">
+                <p class="error" id="lastNameError"></p>
+                <input type = "email" id="email" placeholder="Email Address">
+                <p class="error" id="emailError"></p>
+                <input type = "password" id="password" placeholder="Password">
+                <p class="error" id="passwordError"></p>
                 <button  type ="submit"  class ="button">CLAIM YOUR FREE TRIAL</button>
                 <p class ="terms">By clicking , you are agreeing to our <a href="#" >Terms and Services</a></p>
             </form> 
         </div>
+        <div id="successMessage" class="success-message">
+            Form Submitted Successfully!
+        </div>        
     </section>
+    <script src ="main.js"></script>
 </body>
 </html>
